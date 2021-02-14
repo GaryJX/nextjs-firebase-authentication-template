@@ -1,4 +1,3 @@
-import { useAuth } from "hooks/useAuth";
 import { useRequireAuth } from "hooks/useRequireAuth";
 const DashBoardPage: React.FC = () => {
 	const auth = useRequireAuth();
