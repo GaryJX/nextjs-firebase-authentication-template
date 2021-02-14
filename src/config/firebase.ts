@@ -26,4 +26,4 @@ const db = firebase.firestore();
 const now = firebase.firestore.Timestamp.now();
 const storage = firebase.storage();
 const analytics = firebase.analytics;
-export { auth, db, now, storage, analytics };
+export { app, auth, db, now, storage, analytics };
