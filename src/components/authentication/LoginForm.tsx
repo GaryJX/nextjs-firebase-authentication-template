@@ -21,7 +21,7 @@ const LoginForm: React.FC = () => {
 			setError((response as any).error);
 			console.error(response);
 		} else {
-			router.push("/dashboard");
+			router.push("/profile");
 		}
 	};
 	return (

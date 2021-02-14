@@ -1,5 +1,5 @@
 import { useRequireAuth } from "hooks/useRequireAuth";
-const DashBoardPage: React.FC = () => {
+const ProfilePage: React.FC = () => {
 	const auth = useRequireAuth();
 	if (!auth.user) return null;
 	return (
@@ -23,4 +23,4 @@ const DashBoardPage: React.FC = () => {
 		</div>
 	);
 };
-export default DashBoardPage;
+export default ProfilePage;

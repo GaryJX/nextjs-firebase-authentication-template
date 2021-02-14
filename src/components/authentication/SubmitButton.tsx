@@ -1,4 +1,4 @@
-import Spinner from "./icons/spinner";
+import Spinner from "./spinner";
 
 interface ButtonProps {
 	title: string;

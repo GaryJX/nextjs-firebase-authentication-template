@@ -1,5 +1,5 @@
 import Link from "next/link";
-import ResetPasswordForm from "components/ResetPasswordForm";
+import ResetPasswordForm from "components/authentication/ResetPasswordForm";
 
 const ResetPasswordPage: React.FC = () => {
 	return (
