@@ -1,7 +1,5 @@
 # Firebase Authentication Template
 
-Deployed at
-
 ## Local Development Setup
 
 1. Clone this repository to your local machine: `npx degit https://github.com/GaryJX/nextjs-firebase-authentication-template.git`
